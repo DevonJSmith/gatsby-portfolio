@@ -90,9 +90,9 @@ class Header extends Component {
           <li>
             <Link to={Utils.resolvePageUrl(Config.pages.tag)}>Tags</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to={Utils.resolvePageUrl(Config.pages.about)}>About</Link>
-          </li>
+          </li> */}
         </ul>
         <ul>
           <li>
@@ -114,9 +114,9 @@ class Header extends Component {
             </a>
           </li>
           <li>
-            <Link to={Utils.resolveUrl(Config.social.rss)}>
+            <a href={Utils.resolveUrl(Config.social.rss)}>
               <FaRss size="30" />
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

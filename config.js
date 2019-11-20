@@ -55,20 +55,24 @@ module.exports = {
       description: 'Vue.js is a JavaScript framework for building interactive web applications.'
     },
     flutter:{
-      name: 'Flutter',
-      description: 'placeholder'
+      name: 'Flutter\u2122',
+      description: '"Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase." (Description from https://flutter.dev)  Flutter and the related logo are trademarks of Google LLC. I am not endorsed by or affiliated with Google LLC.'
     },
     dart:{
-      name: 'Dart',
-      description: 'placeholder'
+      name: 'Dart\u2122',
+      description: '"Dart is a client-optimized language for fast apps on any platform." (Description from https://dart.dev). Dart and the related logo are trademarks of Google LLC. I am not endorsed by or affiliated with Google LLC.'
     },
     steam: {
       name: 'Steam',
-      description: 'placeholder'
+      description: '"Steam is a video game digital distribution service platform developed by Valve Corporation." (Description from https://en.wikipedia.org/wiki/Steam_(service))'
     },
     projects: {
       name: 'Projects',
-      description: 'placeholder'
+      description: 'Projects are long term coding endeavors that are meant to be released in a standalone state.'
+    },
+    gatsby:{
+      name: 'Gatsby',
+      description: '"Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps" (Description from https://www.gatsbyjs.org)'
     }
   }
 }
