@@ -62,10 +62,7 @@ jobs:
           # Automatically inject pathPrefix in your Gatsby configuration file.
           #
           # You may remove this line if you want to manage the configuration yourself.
-          # static_site_generator: gatsby
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          deploy-branch: gh-pages
-          gatsby-args: --prefix-paths
+          static_site_generator: gatsby
       - name: Restore cache
         uses: actions/cache@v3
         with:
